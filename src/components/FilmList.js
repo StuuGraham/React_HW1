@@ -5,7 +5,10 @@ const FilmList = ({films}) => {
 
     const filmArray = films.map(film => {
         return (
-            <Film url={film.url}>{film.title}</Film>
+            <Fragment>
+                <Film title={film.title}>{film.url}</Film>
+                <br></br>
+            </Fragment>
         )
     });
     return(

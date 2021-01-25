@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import FilmList from '../components/FilmList.js';
+import UpcomingFilms from '../components/UpcomingFilms.js';
 
 const FilmBox = () => {
     
@@ -35,6 +36,7 @@ const FilmBox = () => {
         <Fragment>
             <h1>Upcoming Film Releases For The UK</h1>
             <FilmList films={films}></FilmList>
+            <UpcomingFilms></UpcomingFilms>
         </Fragment>
     );
 }
