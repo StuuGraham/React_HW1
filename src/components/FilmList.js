@@ -10,7 +10,6 @@ const FilmList = ({films}) => {
     });
     return(
         <Fragment>
-            <h1>Upcoming Film Releases For The UK</h1>
             {filmArray}
         </Fragment>
     );
